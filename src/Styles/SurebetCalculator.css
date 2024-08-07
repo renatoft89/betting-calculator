@@ -1,0 +1,53 @@
+.surebet-calculator {
+  background-color: #fff;
+  border: 2px solid orange;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px auto;
+}
+
+.surebet-calculator h1 {
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  margin: 10px 0;
+}
+
+.input-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-field input, .input-field select {
+  padding: 10px;
+  width: calc(100% - 22px); /* Ajusta o input para a largura da div com padding */
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.calculate-button {
+  padding: 10px 20px;
+  background-color: orange;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.calculate-button:hover {
+  background-color: darkorange;
+}
+
+.result-display {
+  margin-top: 20px;
+  font-weight: bold;
+  white-space: pre-line; /* Preserve os espaços em branco e quebras de linha */
+}
